@@ -8,6 +8,13 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  <ion-item>
+    <ion-label>No Validation here !</ion-label>
+    <ion-input [formControl]="inputControl"></ion-input>
+  </ion-item>
+
+
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">{{ folder }}</ion-title>
